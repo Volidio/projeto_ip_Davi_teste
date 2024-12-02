@@ -160,4 +160,6 @@ if __name__ == "__main__":
             case 0:
                 status = 0
 
+            case _:
+                logger.error("Opção inválida. Escolha uma opção do menu!") 
     print('Obrigado por visitar a Cachaçaria do seu Zé!')
